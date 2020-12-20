@@ -7,16 +7,17 @@ body {
 	background-color: #FFC300;
 	color: hsl(0, 0%, 0%);
 	margin: auto;
-	width: 90%;
+	width: 100vw;
+	height: 100vh;
 	display: block;
 	max-height: 100%;
 	max-width: 900px;
 }
 
 h1{
-    text-align: center;
+	text-align: center;
+	margin: 0;
 }
-
 textarea {
 	width: 100%;
 	margin-right: auto;
@@ -63,4 +64,8 @@ a:hover {
 p {
 	display: block;
 	font-family: 'Ibm plex mono';
+}
+
+#output{
+	text-decoration: underline;
 }
